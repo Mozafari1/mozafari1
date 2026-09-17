@@ -1,0 +1,15 @@
+{
+  "name": "mozafari1-profil",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "scripts": {
+    "svg": "node kilde/banner.mjs && node kilde/kort.mjs",
+    "gif": "node kilde/bygg.mjs",
+    "alt": "npm run svg && npm run gif"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.8.0",
+    "sharp": "^0.34.0"
+  }
+}

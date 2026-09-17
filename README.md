@@ -1,24 +1,26 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg">
-  <img src="banner-light.svg" alt="Rahmat Mozafari, founder of Inovix" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="anim/banner-dark.gif">
+  <img src="anim/banner-light.gif" alt="Rahmat Mozafari, founder of Inovix" width="100%">
 </picture>
 
 <table>
-<tr><td colspan="2"><a href="https://inovix.no"><picture><source media="(prefers-color-scheme: dark)" srcset="kort/inovix-dark.svg"><img src="kort/inovix-light.svg" width="880" alt="Inovix"></picture></a></td></tr>
+<tr><td colspan="2"><a href="https://inovix.no"><picture><source media="(prefers-color-scheme: dark)" srcset="anim/inovix-dark.gif"><img src="anim/inovix-light.gif" width="880" alt="Inovix"></picture></a></td></tr>
 </table>
 
-Five products are running today.
+**Inovix** is a small studio in Norway. We build software for clients, and our own products alongside it.
+
+Five of our own are running today.
 
 <table>
-<tr><td><a href="https://nordcrm.io"><picture><source media="(prefers-color-scheme: dark)" srcset="kort/nordcrm-dark.svg"><img src="kort/nordcrm-light.svg" width="420" alt=""></picture></a></td><td><a href="https://cashlite.io"><picture><source media="(prefers-color-scheme: dark)" srcset="kort/cashlite-dark.svg"><img src="kort/cashlite-light.svg" width="420" alt=""></picture></a></td></tr>
-<tr><td><a href="https://venito.io"><picture><source media="(prefers-color-scheme: dark)" srcset="kort/venito-dark.svg"><img src="kort/venito-light.svg" width="420" alt=""></picture></a></td><td><a href="https://peskot.com"><picture><source media="(prefers-color-scheme: dark)" srcset="kort/peskot-dark.svg"><img src="kort/peskot-light.svg" width="420" alt=""></picture></a></td></tr>
-<tr><td><a href="https://delbarme.com"><picture><source media="(prefers-color-scheme: dark)" srcset="kort/delbarme-dark.svg"><img src="kort/delbarme-light.svg" width="420" alt=""></picture></a></td><td></td></tr>
+<tr><td><a href="https://nordcrm.io"><picture><source media="(prefers-color-scheme: dark)" srcset="anim/nordcrm-dark.gif"><img src="anim/nordcrm-light.gif" width="420" alt=""></picture></a></td><td><a href="https://cashlite.io"><picture><source media="(prefers-color-scheme: dark)" srcset="anim/cashlite-dark.gif"><img src="anim/cashlite-light.gif" width="420" alt=""></picture></a></td></tr>
+<tr><td><a href="https://venito.io"><picture><source media="(prefers-color-scheme: dark)" srcset="anim/venito-dark.gif"><img src="anim/venito-light.gif" width="420" alt=""></picture></a></td><td><a href="https://peskot.com"><picture><source media="(prefers-color-scheme: dark)" srcset="anim/peskot-dark.gif"><img src="anim/peskot-light.gif" width="420" alt=""></picture></a></td></tr>
+<tr><td><a href="https://delbarme.com"><picture><source media="(prefers-color-scheme: dark)" srcset="anim/delbarme-dark.gif"><img src="anim/delbarme-light.gif" width="420" alt=""></picture></a></td><td></td></tr>
 </table>
 
 Two more are on the way.
 
 <table>
-<tr><td><picture><source media="(prefers-color-scheme: dark)" srcset="kort/stamly-dark.svg"><img src="kort/stamly-light.svg" width="420" alt=""></picture></td><td><picture><source media="(prefers-color-scheme: dark)" srcset="kort/tilbudsroboten-dark.svg"><img src="kort/tilbudsroboten-light.svg" width="420" alt=""></picture></td></tr>
+<tr><td><picture><source media="(prefers-color-scheme: dark)" srcset="anim/stamly-dark.gif"><img src="anim/stamly-light.gif" width="420" alt=""></picture></td><td><picture><source media="(prefers-color-scheme: dark)" srcset="anim/tilbudsroboten-dark.gif"><img src="anim/tilbudsroboten-light.gif" width="420" alt=""></picture></td></tr>
 </table>
 
 ## The one I am building now
