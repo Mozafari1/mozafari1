@@ -3,11 +3,11 @@
   <img src="banner-light.svg" alt="Rahmat Mozafari, founder of Inovix" width="100%">
 </picture>
 
-## [Inovix](https://inovix.no)
+<table>
+<tr><td colspan="2"><a href="https://inovix.no"><picture><source media="(prefers-color-scheme: dark)" srcset="kort/inovix-dark.svg"><img src="kort/inovix-light.svg" width="880" alt="Inovix"></picture></a></td></tr>
+</table>
 
-A small studio in Norway. We build our own products and put them live, rather than selling hours.
-
-Five are running today.
+Five products are running today.
 
 <table>
 <tr><td><a href="https://nordcrm.io"><picture><source media="(prefers-color-scheme: dark)" srcset="kort/nordcrm-dark.svg"><img src="kort/nordcrm-light.svg" width="420" alt=""></picture></a></td><td><a href="https://cashlite.io"><picture><source media="(prefers-color-scheme: dark)" srcset="kort/cashlite-dark.svg"><img src="kort/cashlite-light.svg" width="420" alt=""></picture></a></td></tr>
