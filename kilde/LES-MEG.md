@@ -26,6 +26,23 @@ GIF-ene er slettet. De veide 1,6 MB mot rundt 100 kB for SVG, og de var
 uskarpe ved zoom. `kilde/gif.mjs` og `kilde/bygg.mjs` ligger igjen i
 tilfelle det en dag trengs.
 
+## keyTimes må slutte på 1
+
+SMIL forkaster HELE animasjonen hvis keyTimes ikke slutter på 1. Den
+feiler ikke halvveis og den sier ingenting.
+
+Det traff 42 av animasjonene her. Peskot og Stamly hadde ingen gyldige
+og sto bom stille; Inovix hadde fem av ni ugyldige, så prikken gikk
+mens brikkene aldri lyste opp.
+
+Årsaken var en vane: `keyTimes="0;0.3;0.42;0.84;0.9"` der 0,9 skulle
+bety «og så er det over». Men keyTimes sier hvor i syklusen hver verdi
+hører hjemme, og syklusen slutter på 1.
+
+`kilde/gyldig.mjs` retter det ved å gjenta siste verdi på keyTime 1, og
+kjøres på hver SVG før den skrives. Den kaster også hvis values og
+keyTimes har ulikt antall.
+
 ## Regler som ble igjen fra omveien
 
 **Hver animert egenskap må ha en grunnverdi.** `<animate

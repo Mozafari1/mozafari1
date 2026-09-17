@@ -35,6 +35,7 @@
   ser den samme tilstanden. Kortet skal vaere ferdig OGSAA naar
   ingenting beveger seg.
 */
+import { gyldigeTider } from './gyldig.mjs';
 import { writeFileSync, mkdirSync } from 'node:fs';
 
 import { fileURLToPath } from 'node:url';
@@ -287,7 +288,13 @@ const DEMO = {
 };
 
 const TEKST = {
-  inovix: ['Inovix', 'software for clients, and our own products alongside it'],
+    /*
+    Underteksten er kortet med vilje. Den lange utgaven, «software for
+    clients, and our own products alongside it», var 51 tegn og endte paa
+    x 378, mens verkstedsboksen begynner paa 384. Seks piksler er ingen
+    luft, det er en kollisjon som saa vidt gikk klar.
+  */
+  inovix: ['Inovix', 'software for clients, and our own products'],
   nordcrm: ['NordCRM', 'ai powered crm'],
   cashlite: ['Cashlite', 'smart budgeting'],
   venito: ['Venito', 'digital invitations'],
@@ -308,7 +315,9 @@ for (const [navn, demo] of Object.entries(DEMO)) {
   <rect x="24" y="86" width="40" height="3" rx="1.5" fill="${t.blaa}"/>
   ${demo(t)}
 </svg>`;
-    writeFileSync(`${ROT}kort/${navn}-${tn}.svg`, svg);
+    const { svg: ferdig, rettet } = gyldigeTider(svg);
+    if (rettet) console.log(`  ${navn}-${tn}: rettet ${rettet} keyTimes`);
+    writeFileSync(`${ROT}kort/${navn}-${tn}.svg`, ferdig);
   }
   console.log(`kort/${navn}-{dark,light}.svg`);
 }

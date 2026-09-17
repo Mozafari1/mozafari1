@@ -18,6 +18,7 @@
   en GIF har én lengde: en underanimasjon som ikke gaar opp, hopper synlig
   ved hver runde. Syklusen er 8 s, markoeren 1 s, ringene 8 s.
 */
+import { gyldigeTider } from './gyldig.mjs';
 import { writeFileSync } from 'node:fs';
 
 import { fileURLToPath } from 'node:url';
@@ -97,6 +98,8 @@ function lag(navn) {
 }
 
 for (const navn of Object.keys(TEMA)) {
-  writeFileSync(`${ROT}banner-${navn}.svg`, lag(navn));
+  const { svg, rettet } = gyldigeTider(lag(navn));
+  if (rettet) console.log(`  rettet ${rettet} keyTimes`);
+  writeFileSync(`${ROT}banner-${navn}.svg`, svg);
   console.log(`banner-${navn}.svg`);
 }

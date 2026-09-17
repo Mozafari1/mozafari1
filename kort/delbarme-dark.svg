@@ -29,6 +29,6 @@
     </circle><circle cx="406" cy="75" r="15" fill="#21262D" stroke="#8B949E" stroke-opacity="0.35">
       <animate attributeName="cx" values="406;406;384;384;406" keyTimes="0;0.3;0.5;0.86;1" dur="9s" begin="2.4s" repeatCount="indefinite"/>
     </circle><path d="M366 62 L373 68 L380 62" fill="none" stroke="#3B82F6" stroke-width="2.5" stroke-linecap="round" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.5;0.58;0.86;0.92" dur="9s" begin="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5;0.58;0.86;0.92;1" dur="9s" begin="2.4s" repeatCount="indefinite"/>
     </path>
 </svg>
