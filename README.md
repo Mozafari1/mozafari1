@@ -30,4 +30,4 @@ No Kubernetes. It is a monorepo and a managed database, and that is the right si
 
 ### Reach me
 
-[rahmat@mozafari.no](mailto:rahmat@mozafari.no) · [inovix.no](https://inovix.no)
+[post@inovix.no](mailto:post@inovix.no) · [inovix.no](https://inovix.no)
