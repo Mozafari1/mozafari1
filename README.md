@@ -1,29 +1,53 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg">
-  <img src="banner-light.svg" alt="Rahmat Mozafari, building Tilbudsroboten" width="100%">
+  <img src="banner-light.svg" alt="Rahmat Mozafari, founder of Inovix" width="100%">
 </picture>
 
-I build products and put them live. Five are running right now, in five different markets. The newest one is at the bottom.
+## [Inovix](https://inovix.no)
 
-### Live
+A small studio in Norway. We build our own products and put them live, rather than selling hours.
 
-| | | |
-|---|---|---|
-| **NordCRM** | An AI powered CRM for sales teams that would rather be selling. | [nordcrm.io](https://nordcrm.io) |
-| **Cashlite** | Budgeting that tells you what you can actually spend today. | [cashlite.io](https://cashlite.io) |
-| **Venito** | Digital invitations people are not embarrassed to send. | [venito.io](https://venito.io) |
-| **Peskot** | Online multiplayer Hokm. Real time, real tables, no download. | [peskot.com](https://peskot.com) |
-| **DelbarMe** | Voice first matchmaking for the Afghan diaspora. | [delbarme.com](https://delbarme.com) |
+Five are running today.
 
-Plus [inovix.no](https://inovix.no), the studio the rest of it comes out of.
+<table>
+<tr>
+<td width="58" align="center"><a href="https://nordcrm.io"><img src="ikon/nordcrm.svg" width="42" alt=""></a></td>
+<td><a href="https://nordcrm.io"><b>NordCRM</b></a><br>An AI powered CRM for sales teams that would rather be selling.</td>
+</tr>
+<tr>
+<td align="center"><a href="https://cashlite.io"><img src="ikon/cashlite.svg" width="42" alt=""></a></td>
+<td><a href="https://cashlite.io"><b>Cashlite</b></a><br>Budgeting that tells you what you can actually spend today.</td>
+</tr>
+<tr>
+<td align="center"><a href="https://venito.io"><img src="ikon/venito.svg" width="42" alt=""></a></td>
+<td><a href="https://venito.io"><b>Venito</b></a><br>Digital invitations people are not embarrassed to send.</td>
+</tr>
+<tr>
+<td align="center"><a href="https://peskot.com"><img src="ikon/peskot.svg" width="42" alt=""></a></td>
+<td><a href="https://peskot.com"><b>Peskot</b></a><br>Online multiplayer Hokm. Real time, real tables, no download.</td>
+</tr>
+<tr>
+<td align="center"><a href="https://delbarme.com"><img src="ikon/delbarme.svg" width="42" alt=""></a></td>
+<td><a href="https://delbarme.com"><b>DelbarMe</b></a><br>Voice first matchmaking for the Afghan diaspora.</td>
+</tr>
+</table>
 
-### Nearly there
+Two more are on the way.
 
-**Stamly**, booking and loyalty for salons. And the one below.
+<table>
+<tr>
+<td width="58" align="center"><img src="ikon/stamly.svg" width="42" alt=""></td>
+<td><b>Stamly</b><br>Booking and loyalty for salons.</td>
+</tr>
+<tr>
+<td align="center"><img src="ikon/tilbudsroboten.svg" width="42" alt=""></td>
+<td><b>Tilbudsroboten</b><br>Quotes for Norwegian tradespeople, written and signed on site.</td>
+</tr>
+</table>
 
-### Building now
+## The one I am building now
 
-**Tilbudsroboten**: a Norwegian app where tradespeople write, send and get quotes signed from the customer's driveway, instead of at the kitchen table at eleven at night. Voice in, a finished quote out, signed in the browser without an app and without a login. A product of Inovix AS, not launched yet.
+**Tilbudsroboten** lets a tradesperson write, send and get a quote signed from the customer's driveway, instead of at the kitchen table at eleven at night. Voice in, a finished quote out, signed in the browser without an app and without a login.
 
 A monorepo with one app, one web portal and one database that has to be right, because a quote with the wrong sum is worse than no quote at all.
 
@@ -31,20 +55,20 @@ A monorepo with one app, one web portal and one database that has to be right, b
 - **Access control lives in the database, not in the client.** Row level security on every table, with a SQL test suite that logs in as four different users and tries to read what it should not. 107 assertions, and they have caught real holes.
 - **Nothing is ever hard deleted.** Rows are marked, never removed. A company can be closed and reopened by its owner, and only by its owner.
 
-### Stack
+## Stack
 
 TypeScript everywhere. React Native and Expo for the apps, Next.js for the web, Supabase and PostgreSQL underneath, Deno edge functions for anything holding a secret, and the Anthropic API for the writing.
 
 No Kubernetes. A monorepo and a managed database is the right size for this.
 
-### How I work
+## How I work
 
 **Measure, do not guess.** A layout bug I had reasoned about for an hour turned out to be an image that never filled its box. The arithmetic was right and the premise was wrong. Contrast gets a number, token cost gets a number, and a guard gets a test that is made to fail on purpose before it is trusted.
 
 **Write it so it survives being read again in a month.** Comments say why, not what. When a decision is reversed, the old reason is deleted rather than left standing as a rule nobody follows.
 
-**Only claim what is true.** That applies to a landing page and to a README. Everything above is either running at a link up there or sitting in a repository.
+**Only claim what is true.** That applies to a landing page and to a README. Every link above was checked before it was put there.
 
-### Reach me
+## Reach me
 
 [post@inovix.no](mailto:post@inovix.no) · [inovix.no](https://inovix.no)

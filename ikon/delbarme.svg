@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" role="img" aria-label="DelbarMe"><rect x="5.5" y="19" width="5" height="10" rx="2.5" fill="#64748B">
+      <animate attributeName="height" values="10;6;10" dur="2.2s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="19;21;19" dur="2.2s" begin="0s" repeatCount="indefinite"/>
+    </rect><rect x="13.5" y="14" width="5" height="20" rx="2.5" fill="#64748B">
+      <animate attributeName="height" values="20;7;20" dur="2.2s" begin="0.35s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="14;20.5;14" dur="2.2s" begin="0.35s" repeatCount="indefinite"/>
+    </rect><rect x="21.5" y="9" width="5" height="30" rx="2.5" fill="#2563EB">
+      <animate attributeName="height" values="30;11;30" dur="2.2s" begin="0.7s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="9;18.5;9" dur="2.2s" begin="0.7s" repeatCount="indefinite"/>
+    </rect><rect x="29.5" y="15" width="5" height="18" rx="2.5" fill="#64748B">
+      <animate attributeName="height" values="18;6;18" dur="2.2s" begin="1.05s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="15;21;15" dur="2.2s" begin="1.05s" repeatCount="indefinite"/>
+    </rect><rect x="37.5" y="18" width="5" height="12" rx="2.5" fill="#64748B">
+      <animate attributeName="height" values="12;6;12" dur="2.2s" begin="1.4s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="18;21;18" dur="2.2s" begin="1.4s" repeatCount="indefinite"/>
+    </rect></svg>
