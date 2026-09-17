@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" role="img" aria-label="Cashlite">
-  <g fill="#64748B">
-    <rect x="9"  y="28" width="7" height="12" rx="2"/>
-    <rect x="31" y="22" width="7" height="18" rx="2"/>
-  </g>
-  <rect x="20" y="16" width="7" height="24" rx="2" fill="#2563EB">
-    <animate attributeName="y" values="16;30;16" keyTimes="0;0.5;1" dur="6s" begin="0.7s" repeatCount="indefinite"/>
-    <animate attributeName="height" values="24;10;24" keyTimes="0;0.5;1" dur="6s" begin="0.7s" repeatCount="indefinite"/>
-  </rect></svg>

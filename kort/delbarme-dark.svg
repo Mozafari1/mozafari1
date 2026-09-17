@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="150" viewBox="0 0 440 150" role="img" aria-label="DelbarMe, voice first matchmaking">
+  <rect x="0.75" y="0.75" width="438.5" height="148.5" rx="14" fill="#161B22" stroke="#30363D"/>
+  <text x="24" y="50" fill="#E6EDF3" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="-0.4">DelbarMe</text>
+  <text x="24" y="72" fill="#8B949E" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5">voice first matchmaking</text>
+  <rect x="24" y="86" width="40" height="3" rx="1.5" fill="#3B82F6"/>
+  <rect x="244" y="69" width="5" height="12" rx="2.5" fill="#3B82F6" opacity="0.85">
+        <animate attributeName="height" values="12;6;12" dur="1.9s" begin="0.00s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="69;72;69" dur="1.9s" begin="0.00s" repeatCount="indefinite"/>
+      </rect><rect x="255" y="63" width="5" height="24" rx="2.5" fill="#3B82F6" opacity="0.85">
+        <animate attributeName="height" values="24;7;24" dur="1.9s" begin="0.22s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="63;71.5;63" dur="1.9s" begin="0.22s" repeatCount="indefinite"/>
+      </rect><rect x="266" y="57" width="5" height="36" rx="2.5" fill="#3B82F6" opacity="0.85">
+        <animate attributeName="height" values="36;11;36" dur="1.9s" begin="0.44s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="57;69.5;57" dur="1.9s" begin="0.44s" repeatCount="indefinite"/>
+      </rect><rect x="277" y="64" width="5" height="22" rx="2.5" fill="#3B82F6" opacity="0.85">
+        <animate attributeName="height" values="22;7;22" dur="1.9s" begin="0.66s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="64;71.5;64" dur="1.9s" begin="0.66s" repeatCount="indefinite"/>
+      </rect><rect x="288" y="68" width="5" height="14" rx="2.5" fill="#3B82F6" opacity="0.85">
+        <animate attributeName="height" values="14;6;14" dur="1.9s" begin="0.88s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="68;72;68" dur="1.9s" begin="0.88s" repeatCount="indefinite"/>
+      </rect><rect x="299" y="62" width="5" height="26" rx="2.5" fill="#3B82F6" opacity="0.85">
+        <animate attributeName="height" values="26;8;26" dur="1.9s" begin="1.10s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="62;71;62" dur="1.9s" begin="1.10s" repeatCount="indefinite"/>
+      </rect><rect x="310" y="67" width="5" height="16" rx="2.5" fill="#3B82F6" opacity="0.85">
+        <animate attributeName="height" values="16;6;16" dur="1.9s" begin="1.32s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="67;72;67" dur="1.9s" begin="1.32s" repeatCount="indefinite"/>
+      </rect><circle cx="340" cy="75" r="15" fill="#21262D" stroke="#8B949E" stroke-opacity="0.35">
+      <animate attributeName="cx" values="340;340;362;362;340" keyTimes="0;0.3;0.5;0.86;1" dur="9s" begin="2.4s" repeatCount="indefinite"/>
+    </circle><circle cx="406" cy="75" r="15" fill="#21262D" stroke="#8B949E" stroke-opacity="0.35">
+      <animate attributeName="cx" values="406;406;384;384;406" keyTimes="0;0.3;0.5;0.86;1" dur="9s" begin="2.4s" repeatCount="indefinite"/>
+    </circle><path d="M366 62 L373 68 L380 62" fill="none" stroke="#3B82F6" stroke-width="2.5" stroke-linecap="round" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.5;0.58;0.86;0.92" dur="9s" begin="2.4s" repeatCount="indefinite"/>
+    </path>
+</svg>

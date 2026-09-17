@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="150" viewBox="0 0 440 150" role="img" aria-label="Tilbudsroboten, quotes, signed on site">
+  <rect x="0.75" y="0.75" width="438.5" height="148.5" rx="14" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <text x="24" y="50" fill="#0F172A" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="-0.4">Tilbudsroboten</text>
+  <text x="24" y="72" fill="#57606A" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5">quotes, signed on site</text>
+  <rect x="24" y="86" width="40" height="3" rx="1.5" fill="#2563EB"/>
+  <rect x="240" y="30" width="26" height="36" rx="13" fill="#2563EB" opacity="0.9"/><circle cx="253" cy="48" r="20" fill="none" stroke="#2563EB" stroke-width="2" opacity="0">
+      <animate attributeName="r" values="14;26" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0" dur="1.8s" repeatCount="indefinite"/>
+    </circle><rect x="286" y="30" width="130" height="90" rx="8" fill="#EFF2F5"/><rect x="298" y="42" width="104" height="6" rx="3" fill="#57606A" opacity="0.45">
+        <animate attributeName="opacity" values="0;0;0.45;0.45;0" keyTimes="0;0.16;0.24;0.86;0.92" dur="9s" begin="4.2s" repeatCount="indefinite"/>
+      </rect><rect x="298" y="56" width="82" height="6" rx="3" fill="#57606A" opacity="0.45">
+        <animate attributeName="opacity" values="0;0;0.45;0.45;0" keyTimes="0;0.24;0.32;0.86;0.92" dur="9s" begin="4.2s" repeatCount="indefinite"/>
+      </rect><rect x="298" y="70" width="60" height="6" rx="3" fill="#57606A" opacity="0.45">
+        <animate attributeName="opacity" values="0;0;0.45;0.45;0" keyTimes="0;0.32;0.40;0.86;0.92" dur="9s" begin="4.2s" repeatCount="indefinite"/>
+      </rect><path d="M300 100 C 310 90, 320 110, 332 98 S 352 90, 366 102" fill="none" stroke="#2563EB" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="90" stroke-dashoffset="0">
+      <animate attributeName="stroke-dashoffset" values="90;90;0;0;90" keyTimes="0;0.52;0.72;0.88;0.94" dur="9s" begin="4.2s" repeatCount="indefinite"/>
+    </path>
+</svg>

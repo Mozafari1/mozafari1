@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="150" viewBox="0 0 440 150" role="img" aria-label="NordCRM, ai powered crm">
+  <rect x="0.75" y="0.75" width="438.5" height="148.5" rx="14" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <text x="24" y="50" fill="#0F172A" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="-0.4">NordCRM</text>
+  <text x="24" y="72" fill="#57606A" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5">ai powered crm</text>
+  <rect x="24" y="86" width="40" height="3" rx="1.5" fill="#2563EB"/>
+  <rect x="240" y="30" width="52" height="90" rx="7" fill="#EFF2F5"/><rect x="300" y="30" width="52" height="90" rx="7" fill="#EFF2F5"/><rect x="360" y="30" width="52" height="90" rx="7" fill="#EFF2F5"/><rect x="247" y="38" width="38" height="5" rx="2.5" fill="#57606A" opacity="0.35"/><rect x="307" y="38" width="38" height="5" rx="2.5" fill="#57606A" opacity="0.35"/><rect x="367" y="38" width="38" height="5" rx="2.5" fill="#57606A" opacity="0.35"/><rect x="247" y="52" width="38" height="15" rx="4" fill="#57606A" opacity="0.28"/><rect x="307" y="52" width="38" height="15" rx="4" fill="#57606A" opacity="0.28"/><rect x="247" y="74" width="38" height="15" rx="4" fill="#2563EB">
+      <animate attributeName="x" values="247;247;307;307;367;367;247" keyTimes="0;0.2;0.34;0.54;0.68;0.94;1" dur="9s" repeatCount="indefinite"/>
+    </rect>
+</svg>

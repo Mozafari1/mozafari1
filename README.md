@@ -10,39 +10,15 @@ A small studio in Norway. We build our own products and put them live, rather th
 Five are running today.
 
 <table>
-<tr>
-<td width="58" align="center"><a href="https://nordcrm.io"><img src="ikon/nordcrm.svg" width="42" alt=""></a></td>
-<td><a href="https://nordcrm.io"><b>NordCRM</b></a><br>An AI powered CRM for sales teams that would rather be selling.</td>
-</tr>
-<tr>
-<td align="center"><a href="https://cashlite.io"><img src="ikon/cashlite.svg" width="42" alt=""></a></td>
-<td><a href="https://cashlite.io"><b>Cashlite</b></a><br>Budgeting that tells you what you can actually spend today.</td>
-</tr>
-<tr>
-<td align="center"><a href="https://venito.io"><img src="ikon/venito.svg" width="42" alt=""></a></td>
-<td><a href="https://venito.io"><b>Venito</b></a><br>Digital invitations people are not embarrassed to send.</td>
-</tr>
-<tr>
-<td align="center"><a href="https://peskot.com"><img src="ikon/peskot.svg" width="42" alt=""></a></td>
-<td><a href="https://peskot.com"><b>Peskot</b></a><br>Online multiplayer Hokm. Real time, real tables, no download.</td>
-</tr>
-<tr>
-<td align="center"><a href="https://delbarme.com"><img src="ikon/delbarme.svg" width="42" alt=""></a></td>
-<td><a href="https://delbarme.com"><b>DelbarMe</b></a><br>Voice first matchmaking for the Afghan diaspora.</td>
-</tr>
+<tr><td><a href="https://nordcrm.io"><picture><source media="(prefers-color-scheme: dark)" srcset="kort/nordcrm-dark.svg"><img src="kort/nordcrm-light.svg" width="420" alt=""></picture></a></td><td><a href="https://cashlite.io"><picture><source media="(prefers-color-scheme: dark)" srcset="kort/cashlite-dark.svg"><img src="kort/cashlite-light.svg" width="420" alt=""></picture></a></td></tr>
+<tr><td><a href="https://venito.io"><picture><source media="(prefers-color-scheme: dark)" srcset="kort/venito-dark.svg"><img src="kort/venito-light.svg" width="420" alt=""></picture></a></td><td><a href="https://peskot.com"><picture><source media="(prefers-color-scheme: dark)" srcset="kort/peskot-dark.svg"><img src="kort/peskot-light.svg" width="420" alt=""></picture></a></td></tr>
+<tr><td><a href="https://delbarme.com"><picture><source media="(prefers-color-scheme: dark)" srcset="kort/delbarme-dark.svg"><img src="kort/delbarme-light.svg" width="420" alt=""></picture></a></td><td></td></tr>
 </table>
 
 Two more are on the way.
 
 <table>
-<tr>
-<td width="58" align="center"><img src="ikon/stamly.svg" width="42" alt=""></td>
-<td><b>Stamly</b><br>Booking and loyalty for salons.</td>
-</tr>
-<tr>
-<td align="center"><img src="ikon/tilbudsroboten.svg" width="42" alt=""></td>
-<td><b>Tilbudsroboten</b><br>Quotes for Norwegian tradespeople, written and signed on site.</td>
-</tr>
+<tr><td><picture><source media="(prefers-color-scheme: dark)" srcset="kort/stamly-dark.svg"><img src="kort/stamly-light.svg" width="420" alt=""></picture></td><td><picture><source media="(prefers-color-scheme: dark)" srcset="kort/tilbudsroboten-dark.svg"><img src="kort/tilbudsroboten-light.svg" width="420" alt=""></picture></td></tr>
 </table>
 
 ## The one I am building now

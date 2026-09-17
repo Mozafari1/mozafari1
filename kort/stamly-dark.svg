@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="150" viewBox="0 0 440 150" role="img" aria-label="Stamly, booking and loyalty">
+  <rect x="0.75" y="0.75" width="438.5" height="148.5" rx="14" fill="#161B22" stroke="#30363D"/>
+  <text x="24" y="50" fill="#E6EDF3" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="-0.4">Stamly</text>
+  <text x="24" y="72" fill="#8B949E" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5">booking and loyalty</text>
+  <rect x="24" y="86" width="40" height="3" rx="1.5" fill="#3B82F6"/>
+  <rect x="240" y="48" width="176" height="54" rx="9" fill="#21262D"/><circle cx="262" cy="75" r="9" fill="none" stroke="#8B949E" stroke-opacity="0.4" stroke-width="1.5"/><circle cx="262" cy="75" r="9" fill="#3B82F6" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.10;0.17;0.88;0.94" dur="9.5s" begin="3s" repeatCount="indefinite"/>
+      </circle><circle cx="292" cy="75" r="9" fill="none" stroke="#8B949E" stroke-opacity="0.4" stroke-width="1.5"/><circle cx="292" cy="75" r="9" fill="#3B82F6" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.22;0.29;0.88;0.94" dur="9.5s" begin="3s" repeatCount="indefinite"/>
+      </circle><circle cx="322" cy="75" r="9" fill="none" stroke="#8B949E" stroke-opacity="0.4" stroke-width="1.5"/><circle cx="322" cy="75" r="9" fill="#3B82F6" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.34;0.41;0.88;0.94" dur="9.5s" begin="3s" repeatCount="indefinite"/>
+      </circle><circle cx="352" cy="75" r="9" fill="none" stroke="#8B949E" stroke-opacity="0.4" stroke-width="1.5"/><circle cx="352" cy="75" r="9" fill="#3B82F6" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.46;0.53;0.88;0.94" dur="9.5s" begin="3s" repeatCount="indefinite"/>
+      </circle><circle cx="382" cy="75" r="9" fill="none" stroke="#8B949E" stroke-opacity="0.4" stroke-width="1.5"/><circle cx="382" cy="75" r="9" fill="#3B82F6" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.58;0.65;0.88;0.94" dur="9.5s" begin="3s" repeatCount="indefinite"/>
+      </circle><path d="M382 68 l3.2 6.6 7.3 1 -5.3 5.1 1.3 7.2 -6.5 -3.4 -6.5 3.4 1.3 -7.2 -5.3 -5.1 7.3 -1 z" fill="#3B82F6" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.74;0.8;0.9;0.95" dur="9.5s" begin="3s" repeatCount="indefinite"/>
+    </path>
+</svg>
