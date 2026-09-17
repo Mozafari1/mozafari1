@@ -3,21 +3,23 @@
   <img src="banner-light.svg" alt="Rahmat Mozafari, building Tilbudsroboten" width="100%">
 </picture>
 
-I build software for people who are not sitting at a desk, and I ship it.
+I build products and put them live. Five are running right now, in five different markets. The newest one is at the bottom.
 
 ### Live
 
 | | | |
 |---|---|---|
-| **Peskot** | Online multiplayer Hokm. Real time, real tables, no download. | [peskot.com](https://peskot.com) |
+| **NordCRM** | An AI powered CRM for sales teams that would rather be selling. | [nordcrm.io](https://nordcrm.io) |
 | **Cashlite** | Budgeting that tells you what you can actually spend today. | [cashlite.io](https://cashlite.io) |
+| **Venito** | Digital invitations people are not embarrassed to send. | [venito.io](https://venito.io) |
+| **Peskot** | Online multiplayer Hokm. Real time, real tables, no download. | [peskot.com](https://peskot.com) |
 | **DelbarMe** | Voice first matchmaking for the Afghan diaspora. | [delbarme.com](https://delbarme.com) |
 
 Plus [inovix.no](https://inovix.no), the studio the rest of it comes out of.
 
-### In progress
+### Nearly there
 
-**Venito**, digital invitations. **Stamly**, booking and loyalty for salons. **NordCRM**. And the one below.
+**Stamly**, booking and loyalty for salons. And the one below.
 
 ### Building now
 
