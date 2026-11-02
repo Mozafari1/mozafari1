@@ -4,10 +4,12 @@
 </picture>
 
 <table>
-<tr><td colspan="2"><a href="https://inovix.no"><picture><source media="(prefers-color-scheme: dark)" srcset="kort/inovix-dark.svg"><img src="kort/inovix-light.svg" width="880" alt="Inovix"></picture></a></td></tr>
+<tr><td colspan="2"><a href="https://inovix.no/no"><picture><source media="(prefers-color-scheme: dark)" srcset="kort/inovix-dark.svg"><img src="kort/inovix-light.svg" width="880" alt="Inovix"></picture></a></td></tr>
 </table>
 
-**Inovix** is a small studio in Norway. We build software for clients, and our own products alongside it.
+**[Inovix AS](https://inovix.no/en)** is a web and app development agency based in Oslo, Norway. We build business websites, iOS, Android and web apps, and AI automation. Alongside client work, we build and run our own products.
+
+[Nettsider, apputvikling og AI-automatisering for bedrifter](https://inovix.no/no) · [English](https://inovix.no/en)
 
 Five of our own are running today.
 
@@ -49,4 +51,4 @@ No Kubernetes. A monorepo and a managed database is the right size for this.
 
 ## Reach me
 
-[post@inovix.no](mailto:post@inovix.no) · [inovix.no](https://inovix.no)
+[kontakt@inovix.no](mailto:kontakt@inovix.no) · [inovix.no/no](https://inovix.no/no) · [English](https://inovix.no/en)
